@@ -1,0 +1,288 @@
+<?xml version="1.0" standalone="yes"?>
+<DataSetLayout xmlns="http://tempuri.org/DataSetLayout.xsd">
+  <xs:schema id="DataSetLayout" targetNamespace="http://tempuri.org/DataSetLayout.xsd" xmlns:mstns="http://tempuri.org/DataSetLayout.xsd" xmlns="http://tempuri.org/DataSetLayout.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="DataSetLayout" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Etiquetas">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Nome" type="xs:string" minOccurs="0" />
+                <xs:element name="CodZPL" type="xs:string" minOccurs="0" />
+                <xs:element name="PesoMin" type="xs:double" minOccurs="0" />
+                <xs:element name="PesoMax" type="xs:double" minOccurs="0" />
+                <xs:element name="LocalArquivo" type="xs:string" minOccurs="0" />
+                <xs:element name="IsChrysler" type="xs:int" minOccurs="0" />
+                <xs:element name="TipoEtiqueta" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="EtiquetasMov">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Campo" type="xs:string" minOccurs="0" />
+                <xs:element name="Descrizione" type="xs:string" minOccurs="0" />
+                <xs:element name="CampoTipo" type="xs:string" minOccurs="0" />
+                <xs:element name="Tamanho" type="xs:string" minOccurs="0" />
+                <xs:element name="Formato" type="xs:string" minOccurs="0" />
+                <xs:element name="Editavel" type="xs:int" minOccurs="0" />
+                <xs:element name="Fixo" type="xs:int" minOccurs="0" />
+                <xs:element name="Serial" type="xs:string" minOccurs="0" />
+                <xs:element name="ControleChar" type="xs:string" minOccurs="0" />
+                <xs:element name="EventoImpressao" type="xs:int" minOccurs="0" />
+                <xs:element name="ValorFixo" type="xs:string" minOccurs="0" />
+                <xs:element name="Formula" type="xs:string" minOccurs="0" />
+                <xs:element name="ValorMin" type="xs:double" minOccurs="0" />
+                <xs:element name="ValorMax" type="xs:double" minOccurs="0" />
+                <xs:element name="Origem" type="xs:string" minOccurs="0" />
+                <xs:element name="CampoInterno" type="xs:string" minOccurs="0" />
+                <xs:element name="CampoZPL" type="xs:string" minOccurs="0" />
+                <xs:element name="Expressao" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Etiquetas>
+    <Nome>PERNIL_SUINO_TM</Nome>
+    <CodZPL>???&#x10;CT~~CD,~CC^~CT~
+^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR6,6~SD10^JUS^LRN^CI0^XZ
+^XA
+^MMT
+^PW799
+^LL0799
+^LS0
+^BY4,3,160^FT121,306^BCN,,Y,N
+^FD&gt;:@endereco@^FS
+^FT285,404^A0N,28,28^FH\^FD@nomeproduto@^FS
+^PQ1,0,1,Y^XZ
+</CodZPL>
+    <PesoMin>0</PesoMin>
+    <PesoMax>0</PesoMax>
+    <LocalArquivo>PERNIL_SUINO_LM.lbl</LocalArquivo>
+    <IsChrysler>0</IsChrysler>
+    <TipoEtiqueta>0</TipoEtiqueta>
+  </Etiquetas>
+  <EtiquetasMov>
+    <Campo>Descricao 1</Campo>
+    <Descrizione />
+    <CampoTipo>String</CampoTipo>
+    <Tamanho>0</Tamanho>
+    <Formato />
+    <Editavel>0</Editavel>
+    <Fixo>0</Fixo>
+    <Serial />
+    <ControleChar />
+    <EventoImpressao>0</EventoImpressao>
+    <ValorFixo />
+    <Formula />
+    <ValorMin>0</ValorMin>
+    <ValorMax>0</ValorMax>
+    <Origem>produtos</Origem>
+    <CampoInterno>descricao</CampoInterno>
+    <CampoZPL>@descricao@</CampoZPL>
+    <Expressao />
+  </EtiquetasMov>
+  <EtiquetasMov>
+    <Campo>Descricao 2</Campo>
+    <Descrizione />
+    <CampoTipo>String</CampoTipo>
+    <Tamanho>0</Tamanho>
+    <Formato />
+    <Editavel>0</Editavel>
+    <Fixo>0</Fixo>
+    <Serial />
+    <ControleChar />
+    <EventoImpressao>0</EventoImpressao>
+    <ValorFixo />
+    <Formula />
+    <ValorMin>0</ValorMin>
+    <ValorMax>0</ValorMax>
+    <Origem>produtos</Origem>
+    <CampoInterno>descricao2</CampoInterno>
+    <CampoZPL>@descricao2@</CampoZPL>
+    <Expressao />
+  </EtiquetasMov>
+  <EtiquetasMov>
+    <Campo>Descricao 3</Campo>
+    <Descrizione />
+    <CampoTipo>String</CampoTipo>
+    <Tamanho>0</Tamanho>
+    <Formato />
+    <Editavel>0</Editavel>
+    <Fixo>0</Fixo>
+    <Serial />
+    <ControleChar />
+    <EventoImpressao>0</EventoImpressao>
+    <ValorFixo />
+    <Formula />
+    <ValorMin>0</ValorMin>
+    <ValorMax>0</ValorMax>
+    <Origem>produtos</Origem>
+    <CampoInterno>descricao3</CampoInterno>
+    <CampoZPL>@descricao3@</CampoZPL>
+    <Expressao />
+  </EtiquetasMov>
+  <EtiquetasMov>
+    <Campo>Validade</Campo>
+    <Descrizione />
+    <CampoTipo>String</CampoTipo>
+    <Tamanho>0</Tamanho>
+    <Formato />
+    <Editavel>0</Editavel>
+    <Fixo>0</Fixo>
+    <Serial />
+    <ControleChar />
+    <EventoImpressao>0</EventoImpressao>
+    <ValorFixo />
+    <Formula />
+    <ValorMin>0</ValorMin>
+    <ValorMax>0</ValorMax>
+    <Origem>produtos</Origem>
+    <CampoInterno>validade</CampoInterno>
+    <CampoZPL>@validade@</CampoZPL>
+    <Expressao />
+  </EtiquetasMov>
+  <EtiquetasMov>
+    <Campo>Data Hora</Campo>
+    <Descrizione />
+    <CampoTipo>String</CampoTipo>
+    <Tamanho>0</Tamanho>
+    <Formato />
+    <Editavel>0</Editavel>
+    <Fixo>0</Fixo>
+    <Serial />
+    <ControleChar />
+    <EventoImpressao>0</EventoImpressao>
+    <ValorFixo />
+    <Formula />
+    <ValorMin>0</ValorMin>
+    <ValorMax>0</ValorMax>
+    <Origem>producao</Origem>
+    <CampoInterno>datahora</CampoInterno>
+    <CampoZPL>@datahora@</CampoZPL>
+    <Expressao />
+  </EtiquetasMov>
+  <EtiquetasMov>
+    <Campo>Data hora Pro</Campo>
+    <Descrizione />
+    <CampoTipo>String</CampoTipo>
+    <Tamanho>0</Tamanho>
+    <Formato />
+    <Editavel>0</Editavel>
+    <Fixo>0</Fixo>
+    <Serial />
+    <ControleChar />
+    <EventoImpressao>0</EventoImpressao>
+    <ValorFixo />
+    <Formula />
+    <ValorMin>0</ValorMin>
+    <ValorMax>0</ValorMax>
+    <Origem>producao</Origem>
+    <CampoInterno>datahora</CampoInterno>
+    <CampoZPL>@datahorapro@</CampoZPL>
+    <Expressao />
+  </EtiquetasMov>
+  <EtiquetasMov>
+    <Campo>RG Produto</Campo>
+    <Descrizione />
+    <CampoTipo>String</CampoTipo>
+    <Tamanho>0</Tamanho>
+    <Formato />
+    <Editavel>0</Editavel>
+    <Fixo>0</Fixo>
+    <Serial />
+    <ControleChar />
+    <EventoImpressao>0</EventoImpressao>
+    <ValorFixo />
+    <Formula />
+    <ValorMin>0</ValorMin>
+    <ValorMax>0</ValorMax>
+    <Origem>producao</Origem>
+    <CampoInterno>rgproduto</CampoInterno>
+    <CampoZPL>@RGprod@</CampoZPL>
+    <Expressao />
+  </EtiquetasMov>
+  <EtiquetasMov>
+    <Campo>Serial</Campo>
+    <Descrizione />
+    <CampoTipo>String</CampoTipo>
+    <Tamanho>0</Tamanho>
+    <Formato />
+    <Editavel>0</Editavel>
+    <Fixo>0</Fixo>
+    <Serial />
+    <ControleChar />
+    <EventoImpressao>0</EventoImpressao>
+    <ValorFixo />
+    <Formula />
+    <ValorMin>0</ValorMin>
+    <ValorMax>0</ValorMax>
+    <Origem>producao</Origem>
+    <CampoInterno>serial</CampoInterno>
+    <CampoZPL>@serial@</CampoZPL>
+    <Expressao />
+  </EtiquetasMov>
+  <EtiquetasMov>
+    <Campo>Pre Etiqueta</Campo>
+    <Descrizione />
+    <CampoTipo>String</CampoTipo>
+    <Tamanho>0</Tamanho>
+    <Formato />
+    <Editavel>0</Editavel>
+    <Fixo>0</Fixo>
+    <Serial />
+    <ControleChar />
+    <EventoImpressao>0</EventoImpressao>
+    <ValorFixo />
+    <Formula />
+    <ValorMin>0</ValorMin>
+    <ValorMax>0</ValorMax>
+    <Origem>producao</Origem>
+    <CampoInterno>RG</CampoInterno>
+    <CampoZPL>@preetiqueta@</CampoZPL>
+    <Expressao />
+  </EtiquetasMov>
+  <EtiquetasMov>
+    <Campo>Numero OP</Campo>
+    <Descrizione />
+    <CampoTipo>String</CampoTipo>
+    <Tamanho>0</Tamanho>
+    <Formato />
+    <Editavel>0</Editavel>
+    <Fixo>0</Fixo>
+    <Serial />
+    <ControleChar />
+    <EventoImpressao>0</EventoImpressao>
+    <ValorFixo />
+    <Formula />
+    <ValorMin>0</ValorMin>
+    <ValorMax>0</ValorMax>
+    <Origem>producao</Origem>
+    <CampoInterno>opnumeroop</CampoInterno>
+    <CampoZPL>@nroOp@</CampoZPL>
+    <Expressao />
+  </EtiquetasMov>
+  <EtiquetasMov>
+    <Campo>Turno</Campo>
+    <Descrizione />
+    <CampoTipo>String</CampoTipo>
+    <Tamanho>0</Tamanho>
+    <Formato />
+    <Editavel>0</Editavel>
+    <Fixo>0</Fixo>
+    <Serial />
+    <ControleChar />
+    <EventoImpressao>0</EventoImpressao>
+    <ValorFixo />
+    <Formula />
+    <ValorMin>0</ValorMin>
+    <ValorMax>0</ValorMax>
+    <Origem>turnos</Origem>
+    <CampoInterno>turno_Desc</CampoInterno>
+    <CampoZPL>@turno@</CampoZPL>
+    <Expressao />
+  </EtiquetasMov>
+</DataSetLayout>
