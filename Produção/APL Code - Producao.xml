@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+APL Code - Producao
+</name>
+</assembly>
+<members>
+<member name="T:APLCode_Producao.My.Resources.Resources">
+<summary>
+  Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+</summary>
+</member>
+<member name="P:APLCode_Producao.My.Resources.Resources.ResourceManager">
+<summary>
+  Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+</summary>
+</member>
+<member name="P:APLCode_Producao.My.Resources.Resources.Culture">
+<summary>
+  Substitui a propriedade CurrentUICulture do thread atual para todas as
+  pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+</summary>
+</member>
+<member name="P:APLCode_Producao.My.Resources.Resources.Aplipack_Logo_Transp">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Producao.My.Resources.Resources.Aplipack_Software">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Producao.My.Resources.Resources.delete21">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Producao.My.Resources.Resources.keyboard_key1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Producao.My.Resources.Resources.lock">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Producao.My.Resources.Resources.lock_open">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Producao.My.Resources.Resources.printer">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Producao.My.Resources.Resources.user1_lock">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:APLCode_Producao.DataSetLic">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLCode_Producao.DataSetLic.LicencaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLCode_Producao.DataSetLic.LicencaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLCode_Producao.DataSetLic.LicencaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="F:APLCode_Producao.ModuloSupervisorio.apenasImpressao">
+ <summary>
+ Caso esta variável seja 'True', o software não registra a produção, apenas imprime, para evitar acessos desnecessários ao banco
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="yes"?>
+<Configuracao>
+  <Conexoes>
+    <DatabaseTipo>SQLServer</DatabaseTipo>
+    <IpServidor>PTIAME01NB021</IpServidor>
+    <UserServidor>sa</UserServidor>
+    <BancoDeDados>aplipack_aplicador</BancoDeDados>
+    <PortaMySQL>1433</PortaMySQL>
+    <DriverMySQL>sqloledb</DriverMySQL>
+    <PasswordMySQL>dtO5nIoZDjboPQiiWk9CHw==</PasswordMySQL>
+    <PastaEtiquetas>c:\Aplipack\Printers</PastaEtiquetas>
+    <PrinterDireta>1</PrinterDireta>
+    <AtrasoRejeito>0</AtrasoRejeito>
+    <TempoRejeito>0</TempoRejeito>
+    <AtrasoStart>0</AtrasoStart>
+    <AtrasoStop>0</AtrasoStop>
+    <TipoProgramaLayout>Zebra Designer 3</TipoProgramaLayout>
+    <PrinterZebra1>Zebra1</PrinterZebra1>
+    <PortaSerialPlaca>COM1</PortaSerialPlaca>
+    <SpeedPortaSerialPlaca>9600</SpeedPortaSerialPlaca>
+    <IsPortaSerialPlaca>1</IsPortaSerialPlaca>
+    <PastaImagens>c:\Aplipack\Imagens</PastaImagens>
+    <FilePrinterZPL>teste.zpl</FilePrinterZPL>
+    <ISPaletizar>1</ISPaletizar>
+    <ISEstocar>1</ISEstocar>
+    <StringaLider>Lider</StringaLider>
+    <IsConverteZPL>0</IsConverteZPL>
+    <StringaInicialLote>L3</StringaInicialLote>
+    <UnidadeLogistica>1234</UnidadeLogistica>
+    <ProgramaLayout>C:\Program Files (x86)\Zebra Technologies\ZebraDesigner 2\bin\Design.exe</ProgramaLayout>
+    <AlteraZplAcentos>0</AlteraZplAcentos>
+  </Conexoes>
+  <Balanca>
+    <IPLeitor>127.0.0.1</IPLeitor>
+    <PortaLeitor>51236</PortaLeitor>
+    <TipoLote>1</TipoLote>
+  </Balanca>
+  <Turnos>
+    <Turno_Desc01>Turno 01</Turno_Desc01>
+    <Turno_Value01>0</Turno_Value01>
+    <Turno_Ini01>00:00</Turno_Ini01>
+    <Turno_Fin01>00:00</Turno_Fin01>
+    <Turno_Ativo01>0</Turno_Ativo01>
+    <Turno_Desc02>Turno 02</Turno_Desc02>
+    <Turno_Value02>0</Turno_Value02>
+    <Turno_Ini02>00:00</Turno_Ini02>
+    <Turno_Fin02>00:00</Turno_Fin02>
+    <Turno_Ativo02>0</Turno_Ativo02>
+    <Turno_Desc03>Turno 03</Turno_Desc03>
+    <Turno_Value03>0</Turno_Value03>
+    <Turno_Ini03>00:00</Turno_Ini03>
+    <Turno_Fin03>00:00</Turno_Fin03>
+    <Turno_Ativo03>0</Turno_Ativo03>
+    <Turno_Desc04>Turno 04</Turno_Desc04>
+    <Turno_Value04>0</Turno_Value04>
+    <Turno_Ini04>00:00</Turno_Ini04>
+    <Turno_Fin04>00:00</Turno_Fin04>
+    <Turno_Ativo04>0</Turno_Ativo04>
+    <Turno_Desc05>Turno 05</Turno_Desc05>
+    <Turno_Value05>0</Turno_Value05>
+    <Turno_Ini05>00:00</Turno_Ini05>
+    <Turno_Fin05>00:00</Turno_Fin05>
+    <Turno_Ativo05>0</Turno_Ativo05>
+  </Turnos>
+</Configuracao>

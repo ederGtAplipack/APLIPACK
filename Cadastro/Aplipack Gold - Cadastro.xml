@@ -1,0 +1,331 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Aplipack Gold - Cadastro
+</name>
+</assembly>
+<members>
+<member name="T:APLCode_Cadastro.My.Resources.Resources">
+<summary>
+  Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.ResourceManager">
+<summary>
+  Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.Culture">
+<summary>
+  Substitui a propriedade CurrentUICulture do thread atual para todas as
+  pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.add2">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.add21">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.Aplipack_Logo_Transp">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.arrow_down_green">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.arrow_right_green">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.check">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.check2">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.delete2">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.delete21">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.export1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.export11">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.hourglass">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.import1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.import11">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.keyboard_key">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.keyboard_key1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.lock">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.lock_open">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.logo_Aplipack">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.printer">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.user1_lock">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLCode_Cadastro.My.Resources.Resources.view">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetDadosAdd">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetDadosAdd.DadosAddDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetDadosAdd.DadosAddRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetDadosAdd.DadosAddRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetEstoque">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetEstoque.EstoqueDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetEstoque.EstoqueRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetEstoque.EstoqueRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetEstoqueSimples">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetEstoqueSimples.EstoqueDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetEstoqueSimples.EstoqueRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetEstoqueSimples.EstoqueRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetLayout">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetLayout.EtiquetasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetLayout.EtiquetasMovDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetLayout.EtiquetasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetLayout.EtiquetasMovRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetLayout.EtiquetasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetLayout.EtiquetasMovRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetLic">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetLic.LicencaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetLic.LicencaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetLic.LicencaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetRastreabilidade">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetRastreabilidade.RastreabilidadeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetRastreabilidade.RastreabilidadeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetRastreabilidade.RastreabilidadeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetRastSimples">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetRastSimples.RastreabilidadeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetRastSimples.RastreabilidadeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetRastSimples.RastreabilidadeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetVendas">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetVendas.VendasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetVendas.VendasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetVendas.VendasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetVendasSimples">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetVendasSimples.VendasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetVendasSimples.VendasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLCode_Cadastro.DataSetVendasSimples.VendasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>
